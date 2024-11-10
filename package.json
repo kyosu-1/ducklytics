@@ -15,11 +15,14 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
+    "@duckdb/duckdb-wasm": "^1.29.0",
     "@remix-run/cloudflare": "^2.13.1",
     "@remix-run/cloudflare-pages": "^2.13.1",
     "@remix-run/react": "^2.13.1",
+    "chart.js": "^4.4.6",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
