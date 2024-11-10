@@ -1,4 +1,4 @@
-import { json } from "@remix-run/node";
+import { json } from "@remix-run/cloudflare";
 import { useLoaderData, Form } from "@remix-run/react";
 import * as duckdb from '@duckdb/duckdb-wasm';
 import duckdb_worker from '@duckdb/duckdb-wasm/dist/duckdb-browser-eh.worker.js?worker'
