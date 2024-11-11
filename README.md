@@ -1,7 +1,6 @@
-# Welcome to Remix + Cloudflare!
+# ducklytics
 
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+DuckDB-WASMの動作を試すために作成したサンプルアプリ。
 
 ## Development
 
@@ -11,22 +10,6 @@ Run the dev server:
 npm run dev
 ```
 
-To run Wrangler:
-
-```sh
-npm run build
-npm run start
-```
-
-## Typegen
-
-Generate types for your Cloudflare bindings in `wrangler.toml`:
-
-```sh
-npm run typegen
-```
-
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
 
 ## Deployment
 
@@ -42,6 +25,4 @@ Then, deploy your app to Cloudflare Pages:
 npm run deploy
 ```
 
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+注：現在Cloudflare Pagesの25MB制限により、デプロイできない。
